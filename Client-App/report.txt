@@ -1,0 +1,360 @@
+{
+    "nodes": [
+        "storage-node-0",
+        "storage-node-1",
+        "storage-node-2",
+        "storage-node-3"
+    ],
+    "step": "start",
+    "storage files": [
+        "storage-node-0-bucket.json",
+        "storage-node-1-bucket.json",
+        "storage-node-2-bucket.json",
+        "storage-node-3-bucket.json"
+    ],
+    "timestamp": "2021-Feb-02 19:25:09"
+}
+{
+    "status log": [
+        {
+            "file": "storage-node-0-bucket.json",
+            "message": "Successfully queried file status.",
+            "node": "storage-node-0",
+            "number of elements stored": 4,
+            "status": "SUCCESS"
+        },
+        {
+            "file": "storage-node-1-bucket.json",
+            "message": "Successfully queried file status.",
+            "node": "storage-node-1",
+            "number of elements stored": 14,
+            "status": "SUCCESS"
+        },
+        {
+            "file": "storage-node-2-bucket.json",
+            "message": "Successfully queried file status.",
+            "node": "storage-node-2",
+            "number of elements stored": 11,
+            "status": "SUCCESS"
+        },
+        {
+            "file": "storage-node-3-bucket.json",
+            "message": "Successfully queried file status.",
+            "node": "storage-node-3",
+            "number of elements stored": 21,
+            "status": "SUCCESS"
+        }
+    ],
+    "step": "status after insert",
+    "timestamp": "2021-Feb-02 19:26:02"
+}
+{
+    "result": {
+        "file": "storage-node-1-bucket.json",
+        "key": "Toy Story",
+        "message": "Successfully found value for key 'Toy Story'",
+        "node": "storage-node-1",
+        "status": "SUCCESS",
+        "value": {
+            "adult": "False",
+            "belongs_to_collection": "{'id': 10194, 'name': 'Toy Story Collection', 'poster_path': '/7G9915LfUQ2lVfwMEEhDsn3kT4B.jpg', 'backdrop_path': '/9FBwqcd9IRruEDUrTdcaafOMKUq.jpg'}",
+            "budget": "30000000",
+            "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+            "homepage": "http://toystory.disney.com/toy-story",
+            "id": "862",
+            "imdb_id": "tt0114709",
+            "original_language": "en",
+            "original_title": "Toy Story",
+            "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+            "popularity": "21.946943",
+            "poster_path": "/rhIRbceoE9lR4veEXuwCC2wARtG.jpg",
+            "production_companies": "[{'name': 'Pixar Animation Studios', 'id': 3}]",
+            "production_countries": "[{'iso_3166_1': 'US', 'name': 'United States of America'}]",
+            "release_date": "1995-10-30",
+            "revenue": "373554033",
+            "runtime": "81.0",
+            "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}]",
+            "status": "Released",
+            "tagline": "",
+            "title": "Toy Story",
+            "video": "False",
+            "vote_average": "7.7",
+            "vote_count": "5415"
+        }
+    },
+    "step": "search",
+    "timestamp": "2021-Feb-02 19:26:05"
+}
+{
+    "result": {
+        "file": "storage-node-1-bucket.json",
+        "message": "Could not fetch (k,v) pair. Key 'Salt' does not exist.",
+        "node": "storage-node-1",
+        "status": "FAILED"
+    },
+    "step": "search",
+    "timestamp": "2021-Feb-02 19:26:07"
+}
+{
+    "result": {
+        "file": "storage-node-1-bucket.json",
+        "message": "Could not fetch (k,v) pair. Key 'Deadpool' does not exist.",
+        "node": "storage-node-1",
+        "status": "FAILED"
+    },
+    "step": "search",
+    "timestamp": "2021-Feb-02 19:26:09"
+}
+{
+    "status": {
+        "result": {
+            "file": "storage-node-1-bucket.json",
+            "key": "Toy Story",
+            "message": "Successfully deleted (k,v) pair.",
+            "node": "storage-node-1",
+            "status": "SUCCESS",
+            "value": {
+                "adult": "False",
+                "belongs_to_collection": "{'id': 10194, 'name': 'Toy Story Collection', 'poster_path': '/7G9915LfUQ2lVfwMEEhDsn3kT4B.jpg', 'backdrop_path': '/9FBwqcd9IRruEDUrTdcaafOMKUq.jpg'}",
+                "budget": "30000000",
+                "genres": "[{'id': 16, 'name': 'Animation'}, {'id': 35, 'name': 'Comedy'}, {'id': 10751, 'name': 'Family'}]",
+                "homepage": "http://toystory.disney.com/toy-story",
+                "id": "862",
+                "imdb_id": "tt0114709",
+                "original_language": "en",
+                "original_title": "Toy Story",
+                "overview": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
+                "popularity": "21.946943",
+                "poster_path": "/rhIRbceoE9lR4veEXuwCC2wARtG.jpg",
+                "production_companies": "[{'name': 'Pixar Animation Studios', 'id': 3}]",
+                "production_countries": "[{'iso_3166_1': 'US', 'name': 'United States of America'}]",
+                "release_date": "1995-10-30",
+                "revenue": "373554033",
+                "runtime": "81.0",
+                "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}]",
+                "status": "Released",
+                "tagline": "",
+                "title": "Toy Story",
+                "video": "False",
+                "vote_average": "7.7",
+                "vote_count": "5415"
+            }
+        }
+    },
+    "step": "delete",
+    "timestamp": "2021-Feb-02 19:26:11"
+}
+{
+    "status": {
+        "result": {
+            "file": "storage-node-3-bucket.json",
+            "key": "Heat",
+            "message": "Successfully deleted (k,v) pair.",
+            "node": "storage-node-3",
+            "status": "SUCCESS",
+            "value": {
+                "adult": "False",
+                "belongs_to_collection": "",
+                "budget": "60000000",
+                "genres": "[{'id': 28, 'name': 'Action'}, {'id': 80, 'name': 'Crime'}, {'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+                "homepage": "",
+                "id": "949",
+                "imdb_id": "tt0113277",
+                "original_language": "en",
+                "original_title": "Heat",
+                "overview": "Obsessive master thief, Neil McCauley leads a top-notch crew on various insane heists throughout Los Angeles while a mentally unstable detective, Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
+                "popularity": "17.924927",
+                "poster_path": "/zMyfPUelumio3tiDKPffaUpsQTD.jpg",
+                "production_companies": "[{'name': 'Regency Enterprises', 'id': 508}, {'name': 'Forward Pass', 'id': 675}, {'name': 'Warner Bros.', 'id': 6194}]",
+                "production_countries": "[{'iso_3166_1': 'US', 'name': 'United States of America'}]",
+                "release_date": "1995-12-15",
+                "revenue": "187436818",
+                "runtime": "170.0",
+                "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}, {'iso_639_1': 'es', 'name': 'Espa\u00f1ol'}]",
+                "status": "Released",
+                "tagline": "A Los Angeles Crime Saga",
+                "title": "Heat",
+                "video": "False",
+                "vote_average": "7.7",
+                "vote_count": "1886"
+            }
+        }
+    },
+    "step": "delete",
+    "timestamp": "2021-Feb-02 19:26:13"
+}
+{
+    "status": {
+        "result": {
+            "file": "storage-node-3-bucket.json",
+            "key": "Jumanji",
+            "message": "Successfully deleted (k,v) pair.",
+            "node": "storage-node-3",
+            "status": "SUCCESS",
+            "value": {
+                "adult": "False",
+                "belongs_to_collection": "",
+                "budget": "65000000",
+                "genres": "[{'id': 12, 'name': 'Adventure'}, {'id': 14, 'name': 'Fantasy'}, {'id': 10751, 'name': 'Family'}]",
+                "homepage": "",
+                "id": "8844",
+                "imdb_id": "tt0113497",
+                "original_language": "en",
+                "original_title": "Jumanji",
+                "overview": "When siblings Judy and Peter discover an enchanted board game that opens the door to a magical world, they unwittingly invite Alan -- an adult who's been trapped inside the game for 26 years -- into their living room. Alan's only hope for freedom is to finish the game, which proves risky as all three find themselves running from giant rhinoceroses, evil monkeys and other terrifying creatures.",
+                "popularity": "17.015539",
+                "poster_path": "/vzmL6fP7aPKNKPRTFnZmiUfciyV.jpg",
+                "production_companies": "[{'name': 'TriStar Pictures', 'id': 559}, {'name': 'Teitler Film', 'id': 2550}, {'name': 'Interscope Communications', 'id': 10201}]",
+                "production_countries": "[{'iso_3166_1': 'US', 'name': 'United States of America'}]",
+                "release_date": "1995-12-15",
+                "revenue": "262797249",
+                "runtime": "104.0",
+                "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}, {'iso_639_1': 'fr', 'name': 'Fran\u00e7ais'}]",
+                "status": "Released",
+                "tagline": "Roll the dice and unleash the excitement!",
+                "title": "Jumanji",
+                "video": "False",
+                "vote_average": "6.9",
+                "vote_count": "2413"
+            }
+        }
+    },
+    "step": "delete",
+    "timestamp": "2021-Feb-02 19:26:15"
+}
+{
+    "result": {
+        "Assassins": {
+            "adult": "False",
+            "belongs_to_collection": "",
+            "budget": "50000000",
+            "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}, {'id': 80, 'name': 'Crime'}, {'id': 53, 'name': 'Thriller'}]",
+            "homepage": "",
+            "id": "9691",
+            "imdb_id": "tt0112401",
+            "original_language": "en",
+            "original_title": "Assassins",
+            "overview": "Assassin Robert Rath arrives at a funeral to kill a prominent mobster, only to witness a rival hired gun complete the job for him -- with grisly results. Horrified by the murder of innocent bystanders, Rath decides to take one last job and then return to civilian life. But finding his way out of the world of contract killing grows ever more dangerous as Rath falls for his female target and becomes a marked man himself.",
+            "popularity": "11.065939",
+            "poster_path": "/xAx5MP7Dg4y85pyS7atX6eWk4Qd.jpg",
+            "production_companies": "[{'name': 'Silver Pictures', 'id': 1885}, {'name': 'Canal+', 'id': 5358}, {'name': 'Warner Bros.', 'id': 6194}, {'name': 'Dino De Laurentiis Company', 'id': 10308}, {'name': 'Donner/Shuler-Donner Productions', 'id': 23397}, {'name': 'Evansgideon/Lazar', 'id': 25061}]",
+            "production_countries": "[{'iso_3166_1': 'FR', 'name': 'France'}, {'iso_3166_1': 'US', 'name': 'United States of America'}]",
+            "release_date": "1995-10-06",
+            "revenue": "30303072",
+            "runtime": "132.0",
+            "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}, {'iso_639_1': 'es', 'name': 'Espa\u00f1ol'}, {'iso_639_1': 'nl', 'name': 'Nederlands'}]",
+            "status": "Released",
+            "tagline": "In the shadows of life, In the business of death, One man found a reason to live...",
+            "title": "Assassins",
+            "video": "False",
+            "vote_average": "6.0",
+            "vote_count": "394"
+        },
+        "Balto": {
+            "adult": "False",
+            "belongs_to_collection": "{'id': 117693, 'name': 'Balto Collection', 'poster_path': '/w0ZgH6Lgxt2bQYnf1ss74UvYftm.jpg', 'backdrop_path': '/9VM5LiJV0bGb1st1KyHA3cVnO2G.jpg'}",
+            "budget": "0",
+            "genres": "[{'id': 10751, 'name': 'Family'}, {'id': 16, 'name': 'Animation'}, {'id': 12, 'name': 'Adventure'}]",
+            "homepage": "",
+            "id": "21032",
+            "imdb_id": "tt0112453",
+            "original_language": "en",
+            "original_title": "Balto",
+            "overview": "An outcast half-wolf risks his life to prevent a deadly epidemic from ravaging Nome, Alaska.",
+            "popularity": "12.140733",
+            "poster_path": "/gV5PCAVCPNxlOLFM1bKk50EqLXO.jpg",
+            "production_companies": "[{'name': 'Universal Pictures', 'id': 33}, {'name': 'Amblin Entertainment', 'id': 56}, {'name': 'Amblimation', 'id': 4105}]",
+            "production_countries": "[{'iso_3166_1': 'US', 'name': 'United States of America'}]",
+            "release_date": "1995-12-22",
+            "revenue": "11348324",
+            "runtime": "78.0",
+            "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}]",
+            "status": "Released",
+            "tagline": "Part Dog. Part Wolf. All Hero.",
+            "title": "Balto",
+            "video": "False",
+            "vote_average": "7.1",
+            "vote_count": "423"
+        },
+        "Casino": {
+            "adult": "False",
+            "belongs_to_collection": "",
+            "budget": "52000000",
+            "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 80, 'name': 'Crime'}]",
+            "homepage": "",
+            "id": "524",
+            "imdb_id": "tt0112641",
+            "original_language": "en",
+            "original_title": "Casino",
+            "overview": "The life of the gambling paradise \u2013 Las Vegas \u2013 and its dark mafia underbelly.",
+            "popularity": "10.137389",
+            "poster_path": "/xo517ibXBDdYQY81j0WIG7BVcWq.jpg",
+            "production_companies": "[{'name': 'Universal Pictures', 'id': 33}, {'name': 'L\u00e9gende Entreprises', 'id': 10898}, {'name': 'Syalis DA', 'id': 11583}, {'name': 'De Fina-Cappa', 'id': 11584}]",
+            "production_countries": "[{'iso_3166_1': 'FR', 'name': 'France'}, {'iso_3166_1': 'US', 'name': 'United States of America'}]",
+            "release_date": "1995-11-22",
+            "revenue": "116112375",
+            "runtime": "178.0",
+            "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}]",
+            "status": "Released",
+            "tagline": "No one stays at the top forever.",
+            "title": "Casino",
+            "video": "False",
+            "vote_average": "7.8",
+            "vote_count": "1343"
+        },
+        "Copycat": {
+            "adult": "False",
+            "belongs_to_collection": "",
+            "budget": "0",
+            "genres": "[{'id': 18, 'name': 'Drama'}, {'id': 53, 'name': 'Thriller'}]",
+            "homepage": "",
+            "id": "1710",
+            "imdb_id": "tt0112722",
+            "original_language": "en",
+            "original_title": "Copycat",
+            "overview": "An agoraphobic psychologist and a female detective must work together to take down a serial killer who copies serial killers from the past.",
+            "popularity": "10.701801",
+            "poster_path": "/80czeJGSoik22fhtUM9WzyjUU4r.jpg",
+            "production_companies": "[{'name': 'Regency Enterprises', 'id': 508}, {'name': 'New Regency Pictures', 'id': 10104}]",
+            "production_countries": "[{'iso_3166_1': 'US', 'name': 'United States of America'}]",
+            "release_date": "1995-10-27",
+            "revenue": "0",
+            "runtime": "124.0",
+            "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}, {'iso_639_1': 'de', 'name': 'Deutsch'}]",
+            "status": "Released",
+            "tagline": "One man is copying the most notorious killers in history one at a time. Together, two women must stop him from killing again. Or they're next.",
+            "title": "Copycat",
+            "video": "False",
+            "vote_average": "6.5",
+            "vote_count": "199"
+        },
+        "Cutthroat Island": {
+            "adult": "False",
+            "belongs_to_collection": "",
+            "budget": "98000000",
+            "genres": "[{'id': 28, 'name': 'Action'}, {'id': 12, 'name': 'Adventure'}]",
+            "homepage": "",
+            "id": "1408",
+            "imdb_id": "tt0112760",
+            "original_language": "en",
+            "original_title": "Cutthroat Island",
+            "overview": "Morgan Adams and her slave, William Shaw, are on a quest to recover the three portions of a treasure map. Unfortunately, the final portion is held by her murderous uncle, Dawg. Her crew is skeptical of her leadership abilities, so she must complete her quest before they mutiny against her. This is made yet more difficult by the efforts of the British crown to end her pirate raids.",
+            "popularity": "7.284477",
+            "poster_path": "/odM9973kIv9hcjfHPp6g6BlyTIJ.jpg",
+            "production_companies": "[{'name': 'Le Studio Canal+', 'id': 183}, {'name': 'Laurence Mark Productions', 'id': 415}, {'name': 'Metro-Goldwyn-Mayer (MGM)', 'id': 8411}, {'name': 'Carolco Pictures', 'id': 14723}]",
+            "production_countries": "[{'iso_3166_1': 'FR', 'name': 'France'}, {'iso_3166_1': 'DE', 'name': 'Germany'}, {'iso_3166_1': 'IT', 'name': 'Italy'}, {'iso_3166_1': 'US', 'name': 'United States of America'}]",
+            "release_date": "1995-12-22",
+            "revenue": "10017322",
+            "runtime": "119.0",
+            "spoken_languages": "[{'iso_639_1': 'en', 'name': 'English'}, {'iso_639_1': 'la', 'name': 'Latin'}]",
+            "status": "Released",
+            "tagline": "The Course Has Been Set. There Is No Turning Back. Prepare Your Weapons. Summon Your Courage. Discover the Adventure of a Lifetime!",
+            "title": "Cutthroat Island",
+            "video": "False",
+            "vote_average": "5.7",
+            "vote_count": "137"
+        }
+    },
+    "step": "range search",
+    "timestamp": "2021-Feb-02 19:26:17"
+}
