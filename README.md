@@ -7,7 +7,32 @@ The application encompasses the following:
 * A dictionary-based data access API
 * A client application using the data access API
 
-Want to give this app a run? Skip to the [Installation and Setup](#install) section.
+## Supported Functions
+
+As you can see in the [client app](https://github.com/stela-kucek/cloud-storage-system-simulation/blob/ca91448268956c7ac17fe10a87bf0ba0c2608001/Client-App/app.py),
+the API supports the following access/manipulation methods on the storage nodes:
+* **Insertion** 
+  ```python 
+  insert(k, v)
+  ```
+  inserts a new key value pair into the distributed data structure
+* **Deletion** 
+  ```python 
+  delete(k)
+  ```
+  deletes a key-value pair from the distributed data structure (by key)
+* **Search** 
+  ```python 
+  search(k): v
+  ```
+  searches for the value stored with a specific key
+* **Range query** 
+  ```python 
+  range_search(k1, k2): [v1,...,vn]
+  ```
+  finds all elements in the range of two keys: e.g. all names in alphabetic order between “Ben” and “Max”
+
+_**Want to give this app a run? Skip to the [Installation and Setup](#install) section.**_
 
 ## Application Design
 This section describes the overall architecture of the application and the implemented distributed access structure.
